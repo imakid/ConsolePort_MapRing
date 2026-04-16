@@ -1,0 +1,16 @@
+## Interface: 120001, 120000, 50503, 38000, 20505, 11508
+## IconTexture: Interface\AddOns\ConsolePort\Assets\Textures\Logo\CP_Thumb
+## Title: Console Port |cff69ccf0Map Ring|r
+## Notes: Map navigation ring module for ConsolePort
+## RequiredDeps: ConsolePort
+
+## Author: MapRing
+## X-Website: https://github.com/seblindfors/ConsolePort
+## X-Feedback: https://discord.gg/AWeHd48
+
+## SavedVariables: ConsolePortMapRingShared
+## SavedVariablesPerCharacter: ConsolePortMapRing
+
+Database.lua
+
+View\Ring.xml

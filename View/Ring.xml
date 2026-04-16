@@ -1,0 +1,40 @@
+<Ui>
+
+	<PieMenu name="ConsolePortMapRing" parent="UIParent" registerForClicks="AnyUp, AnyDown" inherits="ConsolePortSecurePie, ConsolePortSlicedPie" hidden="true">
+		<Size x="500" y="500"/>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+		<KeyValues>
+			<KeyValue key="radius" type="number" value="0.6"/>
+		</KeyValues>
+		<Frames>
+			<!-- Trigger button: registered as CP binding 'MapRing' -->
+			<Button parentKey="Trigger" name="ConsolePortMapRingTrigger" registerForClicks="AnyUp" inherits="SecureHandlerBaseTemplate">
+				<Attributes>
+					<Attribute name="ignoregamepadhotkey" type="boolean" value="true"/>
+				</Attributes>
+			</Button>
+			<!-- Page indicator: shows "1/3" when paging is needed -->
+			<Frame parentKey="PageIndicator" hidden="true">
+				<Size x="80" y="24"/>
+				<Anchors>
+					<Anchor point="CENTER" relativeTo="$parent" y="-30"/>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<FontString parentKey="Text" inherits="GameFontNormal" justifyH="CENTER">
+							<Anchors>
+								<Anchor point="CENTER"/>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+		</Frames>
+	</PieMenu>
+
+	<Script file="MapData.lua"/>
+	<Script file="Ring.lua"/>
+
+</Ui>

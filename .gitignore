@@ -1,0 +1,18 @@
+# WoW cache files
+*.wdb
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*~
+*.bak
