@@ -2,7 +2,7 @@
 ## IconTexture: Interface\AddOns\ConsolePort\Assets\Textures\Logo\CP_Thumb
 ## Title: Console Port |cff69ccf0Map Ring|r
 ## Notes: Map navigation ring module for ConsolePort
-## Version: 1.0.0
+## Version: 1.1.0
 ## RequiredDeps: ConsolePort
 
 ## Author: MapRing
