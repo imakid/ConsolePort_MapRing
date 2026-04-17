@@ -1,6 +1,10 @@
-# ConsolePort Map Ring v1.0.0
+# ConsolePort Map Ring v1.1.0
 
 A map navigation ring module for ConsolePort, providing a radial menu for navigating the World Map with a gamepad.
+
+## What's Changed
+
+- Added `## Version` field to TOC manifest
 
 ## Features
 
